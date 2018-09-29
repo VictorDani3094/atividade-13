@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Irineu</title>
+    <script>src= "index-1.js"</script>
+</head>
+<body>
+        <h2>Calculadora</h2>
+
+        <p>Calculo</p>
+        <div class="col-md-2">
+            <select id="operacao" class="form-control">
+                <option>selecione</option>
+                <option value="ADICAO">+</option>
+                <option value="SUBTRACAO">-</option>
+                <option value="MULTIPLICAÇÃO">*</option>
+                <option value="DIVISAO">/</option>
+            </select>
+        </div>
+        <p id="function"></p>
+        <button type="Somar"onclick="">+</button>   
+        <button type="Subtrair"onclick="">-</button>   
+        <button type="Dividir"onclick="">/</button> 
+        <button type="multiplicar"onclick="" >x</button>
+        <button type="Resultado" class="result" onclick="btnCalcular()">Resultado</button>
+        <input type="number" class="form-control" id="number" aria-describedby="number" placeholder="Número 1"> 
+        <input type="number" class="form-control" id="number" aria-describedby="number" placeholder="Número 2"> 
+        <input type="result" class="form-control" id="result" aria-describedby="result" placeholder="Resultado"> 
+        
+    </div>
+        <script>
+        var x = myFunction(c, 3);
+        document.getElementById("demo").innerHTML = x;
+        
+        function myFunction(a, b) {
+            return a * b;
+        }
+        </script>
+    
+
+</body>
+</html>
